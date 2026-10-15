@@ -1,12 +1,12 @@
 using TMPro;
 using UnityEngine;
 
-public class BallW3
+public class BallW3 : MonoBehaviour
 {
     public SpriteRenderer ballRenderer;
-    private Rigidbody2D _rigidbody;
-    private float _speedMultiplier = 1.0f;
-    private float _speedThreshold = 10.0f;
+    [SerializeField] private Rigidbody2D _rigidbody;
+    [SerializeField] private float _speedMultiplier = 1.0f;
+    [SerializeField] private float _speedThreshold = 10.0f;
 
     // ------------------------------------------------------------------------
     // This method is called by Unity whenever the ball hits something.
@@ -24,7 +24,7 @@ public class BallW3
         //      of _speedMultiplier. TUNE that value in the Inspector and see
         //      what happens!
 
-        //rigidbody.linearvelocity *= speedmultiplier;
+        _rigidbody.linearVelocity *= _speedMultiplier;
 
         // STEP 1 -------------------------------------------------------------
 
@@ -51,9 +51,9 @@ public class BallW3
     //      return a value of 1.5,
     //      otherwise, return a value of 1.0. 
 
-    //private ??? GetColorMultiplier(??? ???, ??? ???)
+    //private void GetColorMultiplier (x, y)
     //{
-        // write the method body here!
+    //    private void 
         
     //}
 

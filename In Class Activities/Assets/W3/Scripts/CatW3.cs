@@ -95,10 +95,10 @@ public class CatW3 : MonoBehaviour
             // Below this comment, CALL the method named DecreaseHealth.
             // Notice this method's return type is void- that means we don't
             //      have to store the result anywhere.
-            
-
+            private void DecreaseHealth(); 
+    {
             // STEP 2 ---------------------------------------------------------
-
+            
             // STEP 6 ---------------------------------------------------------
             // Write an IF STATEMENT below that does the following:
             // IF the cat's health is below or equal to 0, AND
@@ -126,10 +126,10 @@ public class CatW3 : MonoBehaviour
     //    '_healthText' is a TMP_Text Component, and 'text' is the variable that
     //     decides the text that displays in the UI for this Component.
     //      Hint: there's just one operator missing!
-    private void DecreaseHealth()
-    {
+    //void DecreaseHealth (1);
+    
         // write Step 3 below this comment!
-
+        _healthText.text = "health =" + _health; 
 
         // STEP 5 -------------------------------------------------------------
         // Once you've finished Step 4, CALL the GetHealthSpeechText method
@@ -138,7 +138,7 @@ public class CatW3 : MonoBehaviour
 
 
         // STEP 5 -------------------------------------------------------------
-    }
+    
     // STEP 3 -----------------------------------------------------------------
 
     // STEP 4 -----------------------------------------------------------------
