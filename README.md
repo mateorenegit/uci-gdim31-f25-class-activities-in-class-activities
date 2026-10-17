@@ -23,7 +23,10 @@ Activity 1:
 2. The method input would be the percentage or decimals. The output is void since the sanity dictates the output, not a if or when. 
 3. The method would return a boolean since the beat is dependant on a true or false statement. Basically meaning, "did we hit the beat or not?". The output would be "we hit it" or "we didn't".
 
-Activity 2 
+Activity 2: 
 Metaphor: In the original W1 minigame, the Cat Moving Script itself is the class. The blueprint. 
 While the actual script written or key features in it are the Components.
 The Member Variables are the data. Data as in the color of the cat, traits, etc. 
+
+Part 3:
+The balls get really bright because every time they bounce the value of their color is multiplied (*=) and increased instead of resetting between the bounces. 
