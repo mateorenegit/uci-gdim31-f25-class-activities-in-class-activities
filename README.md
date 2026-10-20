@@ -30,3 +30,14 @@ The Member Variables are the data. Data as in the color of the cat, traits, etc.
 
 Part 3:
 The balls get really bright because every time they bounce the value of their color is multiplied (*=) and increased instead of resetting between the bounces. 
+
+### W4
+Table #10
+1.) We found that adding a Rigid Body to the Cat and and turning Freeze Rotation checked for the X, Y, and Z axis allows the ball to be hit by the cat instead of phased. 
+	We added Rigid Body to the Soccerball and Cat but none on the Goal because Rigidbody is only applicable to physics based objects. The Goal doesn't need this.
+	The Ball has a sphere collider with Is Trigger unchecked so that the ball can move whereas the goal has Is Trigger checked. The goal only has a box collider on with Is Trigger. 
+
+2.) Me and Yixiong encountered an error in Step 1 where the OnTrigger enter method written with the .tag was not working as written on the slides.
+	This was due to the full method type we initially wrote as (Collider other). So we had to write our if statement as:
+	        if (other.gameObject.tag == ("Goal"))
+To work. Emphasis on other.gameObject.tag! Took awhile to fix and got some assitance but resolved at the end. 
