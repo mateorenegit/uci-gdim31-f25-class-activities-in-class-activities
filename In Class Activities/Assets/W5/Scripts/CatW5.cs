@@ -45,7 +45,20 @@ public class CatW5 : MonoBehaviour
 
         Vector3 translation = Vector3.zero;
         
+        float verticalInput = Input.GetAxis("Vertical");
 
+        if (verticalInput > 0.0f)
+        {
+            if (_flipWSControls)
+            {
+                transform.Translate(Vector3.back * _moveSpeed * Time.deltaTime);
+            }
+            else
+            {
+                transform.Translate(Vector3.forward * _moveSpeed * Time.deltaTime);
+            }
+            translation = Vector3.forward;
+        }
 
         // STEP 1 & 2 ---------------------------------------------------------
 

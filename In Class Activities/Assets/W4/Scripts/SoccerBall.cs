@@ -46,7 +46,10 @@ public class SoccerBall : MonoBehaviour
     // Next, we're going to make a method named MadeGoal to call if the
     //      SoccerBall collided with an object tagged "Goal".
     // MadeGoal RETURNS NOTHING, and has NO INPUT.
-    // 
+    private void MadeGoal()
+    {
+        if (SoccerBall.collider.tag == OnTriggerEnter)
+    }
     // Once you've created MadeGoal,
     //      move your Debug.Log() statement into MadeGoal, and
     //      call MadeGoal from inside your if statement in OnTriggerEnter.

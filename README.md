@@ -41,3 +41,10 @@ Table #10
 	This was due to the full method type we initially wrote as (Collider other). So we had to write our if statement as:
 	        if (other.gameObject.tag == ("Goal"))
 To work. Emphasis on other.gameObject.tag! Took awhile to fix and got some assitance but resolved at the end. 
+
+### W6 (Skipped W5)
+P1: 
+1.) The member variables should be floats and bools. Floats for the movement speed and turnspeed. Bools to check our controls. Replicated from the CatW5 Script.
+2.) It should have an Update() method because we want to have this code run frame by frame since its a constant thing. It should also include our Navmesh code with a method 
+	like SetDestination() so the deer can walk on our walkable terrain. 
+3.) The methods should run every frame (Update() Method) and tell our deer where to walk (SetDestination() method) on the navmesh.
