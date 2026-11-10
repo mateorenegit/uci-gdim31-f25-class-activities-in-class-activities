@@ -48,3 +48,15 @@ P1:
 2.) It should have an Update() method because we want to have this code run frame by frame since its a constant thing. It should also include our Navmesh code with a method 
 	like SetDestination() so the deer can walk on our walkable terrain. 
 3.) The methods should run every frame (Update() Method) and tell our deer where to walk (SetDestination() method) on the navmesh.
+
+### Week 7"/"W7
+i. Unity Engine: We discussed navigating Unity, setting up GameObjects, and troubleshooting issues within the engine.
+
+ii. Unity Coding: We worked on writing and debugging C# scripts involving object movement, timers, and behaviors.
+
+iii. General C# Coding: We discussed variables, methods, classes, data types, conditional statements, and syntax.
+
+iv. Math: We discussed calculating movement speeds, using numerical values, and understanding how time affects movement.
+
+v. Other Tools: We discussed using GitHub and GitHub Desktop to clone repositories, commit changes, and push code.
+	https://docs.google.com/document/d/12l7FHfmPBRSnvi6Jb-3WfliCk0vT8dCjRlWnLtkU3Pc/edit?tab=t.0#heading=h.9xlfb9n0qj3f
