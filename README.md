@@ -60,3 +60,7 @@ iv. Math: We discussed calculating movement speeds, using numerical values, and 
 
 v. Other Tools: We discussed using GitHub and GitHub Desktop to clone repositories, commit changes, and push code.
 	https://docs.google.com/document/d/12l7FHfmPBRSnvi6Jb-3WfliCk0vT8dCjRlWnLtkU3Pc/edit?tab=t.0#heading=h.9xlfb9n0qj3f
+
+### Week 8
+The problem was that the muskrat was only moving in a singular direction rather than moving where he was facing. Vector3 moves the muskrat with world's Z-axis regardless of the where the muskrat is facing.
+Using transform.forward we're able to move however way based on where the muskrat is facing. 
