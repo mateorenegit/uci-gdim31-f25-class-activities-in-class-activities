@@ -64,3 +64,9 @@ v. Other Tools: We discussed using GitHub and GitHub Desktop to clone repositori
 ### Week 8
 The problem was that the muskrat was only moving in a singular direction rather than moving where he was facing. Vector3 moves the muskrat with world's Z-axis regardless of the where the muskrat is facing.
 Using transform.forward we're able to move however way based on where the muskrat is facing. 
+
+### Week 9
+https://docs.google.com/drawings/d/1Q5Lgtvv8ssThyosyRKgx5sTRqwH-rB0GLjLLIyc1DTU/edit?usp=sharing
+I got some work done on the GameObject terrain for the ground and placed a few 3D assests like trees and flowers.
+I added some Rigidbody and Collider components for the movement and collision detection for the Player GameObject.
+I looked at the Katamari code and figured I'd save this for later and work primarily just on the terrain. 
